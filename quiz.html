@@ -33,10 +33,12 @@ var answer3 = prompt("Which female player got into some shit for doping this yea
 			correctAnswers ++
 			console.log("three correct");
 		}
-if (correctAnswers == 3) {
+var totalAnswersCorrect = correctAnswers;
+
+if (totalAnswersCorrect == 3) {
 	document.write("You got 3 correct");
 }
-	else if (correctAnswers == 2) {
+	else if (totalAnswersCorrect == 2) {
 		document.write("You got 2 correct!");
 	}
 		else {
