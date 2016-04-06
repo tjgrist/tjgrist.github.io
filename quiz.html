@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Quiz</title>
+	</head>
+	<body>
+	<script>
+		var correctAnswers;
+var answer1 = prompt("Who won the Australian Open this year?");
+	if (answer1 == "Novak Djokovic") {
+			correctAnswers ++;
+			console.log("one correct");
+	}
+
+var answer2 = prompt("Who won the US open this year?");
+	if (answer2 == "Novak Djokovic") {
+			correctAnswers ++
+			console.log("two correct");
+	}
+var answer3 = prompt("Which female player got into some shit for doping this year?");
+	if (answer2 == "Maria Sharapova") {
+			correctAnswers ++
+			console.log("three correct");
+		}
+		console.log(correctAnswers);
+if (correctAnswers == 3) {
+	document.write("You got 3 correct");
+}
+	else if (correctAnswers == 2) {
+		document.write("You got 2 correct!");
+	}
+		else {
+			document.write("Sorry, keep studying.")
+	}
+
+	</script>
+	
+	</body>
+	</html>

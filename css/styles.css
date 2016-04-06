@@ -1,0 +1,83 @@
+#titleBar {
+	background-color: #ccff66;
+	clear: both;
+	text-align: center;
+}
+#purposes {
+	font-family: garamond;
+	color: #666666;
+}
+p {
+	font-family: garamond;
+	color: #777777;
+}
+
+#awesomeText {font-family: 'Times New Roman', Georgia, Serif;
+	
+	}
+
+.soft {color: black;
+	font-family: garamond;
+	}
+
+.center {text-align: center;}
+
+.container {margin: 0 auto;}
+
+a:hover {
+	color: yellow;
+}
+a:link{
+	text-decoration: none;
+}
+h1 {
+	font-family: garamond;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+	color: #555555;
+}
+h5 {
+	text-align: center;
+
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+/* Here's the sidebar css:;*/
+.clear {
+	clear: both;
+}
+.main{
+	width: 150px;
+	clear: both;
+	background: #999fff;
+	float: left;
+	height: 37em;
+}
+#footer {
+	position: absolute;
+	clear: both;
+	background: #888ddd;
+	width: 100%;
+	color: black;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+
+}
+#firsttd {
+	font-size: 120%;
+	font-weight: bold;
+}
+#invisidiv {
+	margin-top: 20px; 
+	padding-top: 20px;
+}
