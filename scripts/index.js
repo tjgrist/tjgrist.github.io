@@ -1,7 +1,7 @@
 "use strict";
 
-$("img").hide();
 
 $(document).ready(function(){
+	$("img").hide();
 	$("img").fadeIn(1500);
 })
